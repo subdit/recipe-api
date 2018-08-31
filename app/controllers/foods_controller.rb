@@ -52,7 +52,7 @@ class FoodsController < OpenReadController
   end
 
   def food_params
-    params.require(:food).permit(:text)
+    params.require(:food).permit(:name, :description, :status)
   end
 
   private :set_food, :food_params
