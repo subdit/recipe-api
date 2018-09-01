@@ -44,7 +44,7 @@ class FoodsController < OpenReadController
   def destroy
     @food.destroy
 
-    head :no_content
+    # head :no_content
   end
 
   def set_food
