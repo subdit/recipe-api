@@ -2,5 +2,6 @@
 
 class User < ApplicationRecord
   include Authentication
-  has_many :foods # has_many :examples
+  has_many :examples
+  has_many :foods
 end
