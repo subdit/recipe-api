@@ -3,7 +3,8 @@ The purpose of API repository of full stack web application is to support the re
 
 ## API link and the Main Reason ##
 The main reason behide this project was from my inspiration and passion of cooking, which I have been cooking for the past 18 years as my profession. I want to keep all the recipes from my own experience and write it down where I can share with whoever have a passion in cooking. The most important thing is the users itself to be able to create their own and share with other. The extra features of this app is allows the users to update and delete their own items.
-link: https://enigmatic-tor-32625.herokuapp.com/
+API deployed: https://enigmatic-tor-32625.herokuapp.com/
+API repo: https://github.com/subdit/recipe-api
 
 # Client Repository ##
  Recipe-client: https://subdit.github.io/recipe-client/

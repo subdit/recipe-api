@@ -33,7 +33,7 @@ class UsersController < ProtectedController
 
   # PATCH '/change-password/:id'
   def changepw
-    # if the the old password authenticates,
+    # if the old password authenticates,
     # the new one is not blank,
     # and the model saves
     # then 204

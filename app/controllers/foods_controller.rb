@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 class FoodsController < OpenReadController
-  before_action :set_food, only: %i[update destroy]
+  before_action :set_food, only: %i[show update destroy]
 
   # GET /examples
   # GET /examples.json
   def index
-    @foods = Food.all
+    @foods = current_user.foods
 
     render json: @foods
   end
@@ -14,7 +14,7 @@ class FoodsController < OpenReadController
   # GET /examples/1
   # GET /examples/1.json
   def show
-    render json: Food.find(params[:id])
+    render json: @food
   end
 
   # POST /examples

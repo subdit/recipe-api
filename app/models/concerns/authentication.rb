@@ -30,6 +30,14 @@ module Authentication
   # FIXME: Do I need to validate that token doesn't exist? (improbable)
   def set_token
     self.token = SecureRandom.hex(16)
+
+    # potential_token = SecureRandom.hex(16)
+    #
+    # while User.find_by(token: potential_token).present? do
+    #   potential_token = SecureRandom.hex(16)
+    # end
+    #
+    # self.token = potential_token
   end
 
   # unconditionally create and set a new token
